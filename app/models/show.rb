@@ -22,7 +22,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.popular_shows
-
+    binding.pry
   end
 
 end
